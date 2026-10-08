@@ -367,18 +367,18 @@
         </p>
 
         <p>
-            Entre os eventos identificados está o evento
-            <strong>select_content</strong>, relacionado à seleção de
-            conteúdo/canais.
+            O código do aplicativo registra o evento
+            <strong>select_content</strong> quando um canal é selecionado.
+            O Firebase SDK também pode gerar eventos técnicos automáticos
+            conforme seu funcionamento e configuração.
         </p>
 
         <p>
-            Esse evento pode incluir informações como:
+            O evento de seleção de canal pode incluir:
         </p>
 
         <ul>
-            <li>Identificador do canal;</li>
-            <li>Nome do canal;</li>
+                <li>Nome do canal (usado como identificador e nome do item);</li>
             <li>Categoria do canal;</li>
             <li>Tipo de conteúdo.</li>
         </ul>
@@ -455,9 +455,9 @@
         <p>O aplicativo possui integração com:</p>
 
         <ul>
-            <li>Anúncios nativos;</li>
+                <li>Anúncios nativos;</li>
             <li>Anúncios intersticiais;</li>
-            <li>Anúncios recompensados;</li>
+                <li>Anúncios recompensados;</li>
             <li>Anúncios de abertura do aplicativo (App Open).</li>
         </ul>
 
@@ -469,11 +469,10 @@
         </p>
 
         <p>
-            O aplicativo possui integração com o identificador de
-            publicidade do Android (Advertising ID). A utilização
-            efetiva desse identificador pode depender do funcionamento
-            dos SDKs do Google, das configurações do dispositivo e das
-            configurações da conta de publicidade.
+            O manifesto declara a permissão do identificador de
+            publicidade do Android (AD_ID). O tratamento efetivo desse
+            identificador depende do SDK do Google e das configurações
+            do dispositivo e da publicidade.
         </p>
 
         <p>
@@ -548,9 +547,10 @@
         </ul>
 
         <p>
-            O Deli TV não foi identificado como mantendo uma base própria
-            de endereços IP ou enviando deliberadamente o IP do usuário
-            para uma API própria de telemetria.
+            O Deli TV não opera uma API própria de telemetria de endereços
+            IP. Ainda assim, os serviços externos acessados e a
+            infraestrutura de rede podem receber o endereço IP como parte
+            normal das conexões.
         </p>
 
         <p>
@@ -872,20 +872,12 @@
         </p>
 
         <p>
-            Site:
-            <a href="https://silvers.space"
-               target="_blank"
-               rel="noopener noreferrer">
-                silvers.space
-            </a>
-        </p>
-
-        <p>
-            Página do aplicativo:
+            Use o contato de privacidade do responsável informado na
+            página oficial do aplicativo no Google Play:
             <a href="https://play.google.com/store/apps/details?id=com.jack.deli"
                target="_blank"
                rel="noopener noreferrer">
-                Deli TV no Google Play
+                Deli TV no Google Play ↗
             </a>
         </p>
     </section>
@@ -912,3 +904,4 @@
 
 </body>
 </html>
+
